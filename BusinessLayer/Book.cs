@@ -8,6 +8,7 @@ public class Book
 	[StringLength(13, MinimumLength = 13, ErrorMessage = "ISBN must be exactly 13 symbols!")]
 	public string ISBN { get; set; }
 
+	public string Color { get;set;}
 	[Required]
 	[MaxLength(80)]
 	public string Title { get; set; }
